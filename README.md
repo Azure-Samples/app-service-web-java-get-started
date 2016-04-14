@@ -33,7 +33,7 @@ will look inside this folder for web apps to host. ROOT.war represents the defau
 WAR file that's otherwise named represents a web app accessbile at `~/<WARfilename>`. 
 
 Also included in the repo is the Web.config file, that uses the 
-[httppPlatformHandler](http://www.iis.net/downloads/microsoft/httpplatformhandler) to tell IIS to be a proxy between
+[httpPlatformHandler](http://www.iis.net/downloads/microsoft/httpplatformhandler) to tell IIS to be a proxy between
 HTTP requests and the Tomcat 8 server. You don't actually need this file if you enable Java for your app through the 
 [portal](https://portal.azure.com) UI.
 
